@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: rgb(95, 121 ,148);
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: wheat;
+}
+
+.nav a{
+    text-decoration: none;
+    color:white;
+}
+.nav a:hover{
+    color:aquamarine;
+
+}
+.hero{
+    background-image: url(foto/lala.png);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-text{
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    background-color:  rgba(0, 255, 255, 0.558);   
+    height: 25hv;   
+    
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    border-radius: 1rem;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.article{
+    display:flex;
+    flex-direction: row;
+}
+.text{
+    text-align: center;
+    padding:1rem;
+    font-family: monospace;
+    color: rgb(141 , 65, 212);
+}
+.text, .images{
+width: 50%;
+display: flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+}
+
+.image img{
+    display: block;
+    width: 50%;
+
+}
+.article:nth-child(even){
+
+flex-direction:row-reverse;
+}
+
+footer{
+    display:flex;
+    background-color: rgb(141, 65, 212);
+    color: white;
+    justify-content: space-evenly;
+    align-items: space-between;
+    padding: 1rem;
+}
